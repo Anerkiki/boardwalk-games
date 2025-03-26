@@ -18,6 +18,13 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* margin: 2rem 0; -----------------???----------------- why is this not doing the same as above? */
 }
 
 .sub-heading-colour {
@@ -32,6 +39,11 @@ h1, h2, h3 {
     width: 30px;
 }
 
+/* Header */
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -42,20 +54,4 @@ h1, h2, h3 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-} */
-
-
-
-
-/* .navbar .container-fluid {
-    background-color: var(--primary-color);
-} */
-
-/* .navbar-brand h1 {
-    text-transform: uppercase;
-    color: white;
-}
-
-.btn {
-    margin-left: 10px;
 } */
