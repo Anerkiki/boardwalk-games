@@ -105,6 +105,10 @@ header .lead {
     color: var(--secondary-color);
 }
 
+#contact .table-dark * {
+    background-color: transparent;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
