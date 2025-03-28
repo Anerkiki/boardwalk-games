@@ -29,15 +29,16 @@ h2 {
     margin-bottom: 2rem;
 }
 
-.section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    /* margin: 2rem 0; -----------------???----------------- why is this not doing the same as above? */
-}
-
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Navbar */
 
 .navbar {
     background-color: var(--primary-color);
@@ -48,11 +49,13 @@ h2 {
 }
 
 /* Header */
+
 header .lead {
     font-family: var(--secondary-font);
 }
 
 /* Services */
+
 #services .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
@@ -61,6 +64,45 @@ header .lead {
 
 #services .card {
     margin-bottom: 1.5rem;
+}
+
+/* Games Library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
+/* Footer/ Contact */
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
 }
 
 /* grid visualisation CSS for testing */
